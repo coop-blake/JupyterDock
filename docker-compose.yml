@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+      - "8889:8889"
+    volumes:
+      - ./files:/app # Persist The files directory
+      - ./jupyter_config:/root/.jupyter  # Persist Jupyter config/tokens
+      - ./certs:/certs #certs dir
+    environment:
+      - JUPYTER_TOKEN=du2-ErtNJIXvjUq8couo5A    # Set a persistent token
+      - JUPYTER_ENABLE_LAB=yes     # Enable JupyterLab (optional)
+    
