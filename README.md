@@ -1,4 +1,4 @@
-# PythonDocks
+# JupyterDock
 
 Docker Configurations for Python
 
