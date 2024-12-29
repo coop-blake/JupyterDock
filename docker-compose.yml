@@ -4,9 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "8888:8888"
-      - "8889:8889"
     volumes:
       - ./files:/app # Persist The files directory
       - ./jupyter_config:/root/.jupyter  # Persist Jupyter config/tokens
