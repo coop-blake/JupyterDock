@@ -7,9 +7,9 @@ Docker Configurations for Python
 Open Terminal:
 
 - docker-compose build
-- docker-compose up -d --build
+- docker-compose up -d 
 
-Go to http://localhost:8888:/
+Go to http://localhost:8888:/  
 Input Token: du2-ErtNJIXvjUq8couo5A
 You can change this token in the docker-compose.yml file
 
