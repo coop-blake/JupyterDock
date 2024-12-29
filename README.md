@@ -4,10 +4,9 @@ Docker Configurations for Python
 
 ## Start
 
-Open Terminal:
-
-- docker-compose build
-- docker-compose up -d 
+Open Terminal:  
+`docker-compose build`  
+`docker-compose up -d`   
 
 Go to http://localhost:8888/  
 Input Token: du2-ErtNJIXvjUq8couo5A  
@@ -15,9 +14,8 @@ You can change this token in the docker-compose.yml file
 
 ## End
 
-Open Terminal:
-
-- docker-compose down
+Open Terminal:  
+`docker-compose down`
 
 ## Files
 The files that are in the navigator of Jupyter Lab should show up in the __files__ directory. This is one of the shared directory's that the python container has access to.
