@@ -10,7 +10,7 @@ Open Terminal:
 - docker-compose up -d 
 
 Go to http://localhost:8888:/  
-Input Token: du2-ErtNJIXvjUq8couo5A
+Input Token: du2-ErtNJIXvjUq8couo5A  
 You can change this token in the docker-compose.yml file
 
 ## End
